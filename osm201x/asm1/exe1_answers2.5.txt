@@ -1,0 +1,2 @@
+Mở một cửa sổ Terminal khác và dùng lệnh kill để hủy tiến trình cha trong Terminal mới. Tại sao chương trình vẫn tiếp tục hiển thị nội dung trên Terminal cũ?
+Answer: Because the fork() function will create another process which is another instance of the same source code of parent but not parent itself.

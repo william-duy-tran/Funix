@@ -1,0 +1,2 @@
+Tại sao trong chương trình, giá trị của biến mynum có thay đổi nhưng các xâu PARENT0 được hiển thị liên tục mà không thay đổi giá trị số, trong khi xâu CHILDx được thay đổi giá trị số?
+Answer: Because the fork() function will duplicate everything from parent and they are not share anything. mynum's value was updated in child process totally different with mynum of Parent process

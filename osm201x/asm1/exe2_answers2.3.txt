@@ -1,0 +1,2 @@
+Giải thích tạo sao trên cửa sổ dòng lệnh có hiện tượng một hoặc nhiều luồng hiển thị giá trị my_id của nó giống với luồng khác?
+Answer: Because multi threads was parallels executing and at the time threads created, the value of j still the old value which was increasing by other thread in parallel.
